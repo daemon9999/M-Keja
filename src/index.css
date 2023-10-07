@@ -5,10 +5,12 @@
 
 
 
-html, body, #root {
+html,
+body,
+#root {
     @apply h-full
 }
 
 body {
-    @apply font-roboto
+    @apply font-roboto text-neutral
 }

@@ -6,6 +6,6 @@ import appRouter from './router'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={appRouter}/>
+    <RouterProvider router={appRouter}/>  
   </React.StrictMode>,
 )
