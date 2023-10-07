@@ -13,6 +13,9 @@ export default {
       },
       fontFamily: {
         roboto: ['Roboto', 'sans-serif']
+      },
+      backgroundImage: {
+        filter: "url('/images/filter-section-img.png')"
       }
     },
   },

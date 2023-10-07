@@ -4,7 +4,7 @@ import Button from '../button';
 export default function Header() {
   return (
     <header className="h-20 bg-white">
-      <div className="max-w-[1360px] mx-auto  h-full flex items-center  justify-between">
+      <div className="max-w-[1280px] mx-auto  h-full flex items-center  justify-between">
         {/* LEFT SIDE */}
         <div className="flex gap-x-10 items-center">
           <Link
