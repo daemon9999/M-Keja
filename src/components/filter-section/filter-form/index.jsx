@@ -1,6 +1,7 @@
 import classNames from 'classnames';
 import { useState } from 'react';
-import {GrSearch} from "react-icons/gr"
+import {AiOutlineSearch} from "react-icons/ai"
+import Button from 'src/components/button';
 export default function FilterForm() {
   const [activeTab, setActiveTab] = useState(1);
 
@@ -74,9 +75,7 @@ export default function FilterForm() {
             <p className="text-sm font-semibold">Advance Filter</p>
           </div>
 
-              <div className='text-white'>
-                <GrSearch size={24}/>
-              </div>
+          <Button icon={AiOutlineSearch}>Search</Button>
        
         </form>
       </div>
