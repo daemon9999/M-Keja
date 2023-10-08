@@ -13,7 +13,7 @@ export default function Button({
     element = createElement(
       as,
       {
-        className: 'flex items-center px-6 py-3 bg-primary rounded gap-x-2',
+        className: 'flex items-center px-6 py-3 bg-primary rounded gap-x-2 group hover:bg-white transition-all',
         ...props,
       },
 
@@ -21,16 +21,13 @@ export default function Button({
         createElement(
           'p',
           {
-            className: 'text-sm text-white font-semibold',
+            className: 'text-sm text-white font-semibold group-hover:text-primary transition-all',
           },
           children,
         ),
         createElement(icon, {
           size: 20,
-          color:'white',
-          style: {
-            color: 'white'
-          }
+          className: 'text-white group-hover:text-primary transition-all'
         }),
       ],
     );
