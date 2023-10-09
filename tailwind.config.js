@@ -16,6 +16,9 @@ export default {
       },
       backgroundImage: {
         filter: "url('/images/filter-section-img.png')"
+      },
+      fontSize: {
+        '3.75': '0.9375rem'
       }
     },
   },

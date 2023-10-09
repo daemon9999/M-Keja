@@ -39,16 +39,13 @@ export default function Entertainment() {
               backgroundImage: `url('/images/entertainment/picture-${picture.id}.png')`,
             }}
           >
-            
-                {picture.id === 1 ? (
-                    <>{picture.label}</>
-                ) : (
-    
-                <p className="text-white text-2xl font-semibold drop-shadow-lg uppercase tracking-[4.8px]">
-                  {picture.label}
-                </p>
-                )}
-           
+            {picture.id === 1 ? (
+              <>{picture.label}</>
+            ) : (
+              <p className="text-white text-2xl font-semibold drop-shadow-lg uppercase tracking-[4.8px]">
+                {picture.label}
+              </p>
+            )}
           </div>
         ))}
       </div>
