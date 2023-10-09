@@ -4,6 +4,7 @@ export default function Button({
   as = 'button',
   variant,
   icon = null,
+  additionalStyle='',
   children,
   ...props
 }) {
@@ -13,7 +14,7 @@ export default function Button({
     element = createElement(
       as,
       {
-        className: 'flex items-center px-6 py-3 bg-primary rounded gap-x-2 group hover:bg-white transition-all',
+        className: 'flex items-center px-6 py-3 bg-primary rounded gap-x-2 group hover:bg-white transition-all ' + additionalStyle,
         ...props,
       },
 
@@ -36,7 +37,7 @@ export default function Button({
       as,
       {
         className: classNames(
-          'px-10 py-4 flex items-center justify-center text-sm font-semibold rounded transition-all',
+          'px-10 py-4 flex items-center justify-center text-sm font-semibold rounded transition-all ' + additionalStyle ,
           {
             'bg-primary text-white hover:bg-white hover:text-primary':
               variant === 'default',

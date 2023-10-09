@@ -15,7 +15,10 @@ export default {
         roboto: ['Roboto', 'sans-serif']
       },
       backgroundImage: {
-        filter: "url('/images/filter-section-img.png')"
+        filter: "url('/images/filter-section-img.png')",
+        'city-1': "url('/images/neighbourhoods/city-1.png')",
+        'city-2': "url('/images/neighbourhoods/city-2.png')",
+        'city-3': "url('/images/neighbourhoods/city-3.png')"
       },
       fontSize: {
         '3.75': '0.9375rem'
