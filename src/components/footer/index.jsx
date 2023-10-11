@@ -8,8 +8,8 @@ export default function Footer() {
       <div className="max-w-[1160px] mx-auto container ">
         {/* TOP PART */}
         <div className="flex items-start w-full justify-between">
-          <Link to={'/'} className="bg-primary-2 py-6 px-9 ">
-            <h2 className="text-white text-[2.5rem] font-semibold">Logo</h2>
+          <Link to={'/'} className="h-28 w-auto">
+            <img src="/images/logo/footer-logo.png" className='h-full w-auto' alt="AFRI Logo" />
           </Link>
 
 
